@@ -1,0 +1,15 @@
+# Idea
+.idea
+*.iml
+*.ipr
+*.iws
+out
+
+# Gradle
+.gradle
+build
+
+# Allure
+allure-results
+.allure
+.gradle
