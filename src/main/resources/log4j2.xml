@@ -8,6 +8,7 @@
   </Appenders>
   <Loggers>
     <Logger name="org.springframework" level="WARN"/>
+    <Logger name="org.apache.commons" level="INFO"/>
     <Root level="DEBUG">
       <AppenderRef ref="STDOUT"/>
     </Root>

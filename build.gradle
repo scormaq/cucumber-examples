@@ -63,6 +63,7 @@ dependencies {
 
     // utils
     implementation "org.apache.commons:commons-lang3:3.11"
+    implementation "commons-beanutils:commons-beanutils:1.9.4"
 }
 
 allure {

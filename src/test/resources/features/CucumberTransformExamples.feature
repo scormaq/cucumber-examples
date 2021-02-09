@@ -58,9 +58,9 @@ Feature: pass arguments from Cucumber to Java
       | comments     | [comment1,then comment2,comment3 also] |
 
     And next DTOs are used in test:
-      | id  | addressLine1 | addressLine2 | zipCode.code | comments |
-      | 555 |              | some line1   | AAA BBB      | []       |
-      |     | [blank]      | [blank]      |              |          |
+      | id  | address line1 | address line2 | zipCode.code | comments |
+      | 555 |               | some line1    | AAA BBB      | []       |
+      |     | [blank]       | [blank]       |              |          |
 
 
   Scenario: pass non-trivial custom arguments
